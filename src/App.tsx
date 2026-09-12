@@ -10,9 +10,10 @@ function App() {
   return (
     <>
       <Navbar />
-      <Card />
+
 
       <Hero />
+      <Card />
       <main>
         <List />
         <Stack />
