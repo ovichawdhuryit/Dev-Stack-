@@ -5,12 +5,12 @@ export default function Footer() {
                 <div>
                     <img src="/assets/logo-text.png" alt="footer logo" />
 
-                    <p className=" text-sm text-gray-600">Curated tools, technologies, and resources for developers building <br /> modern software.</p>
+                    <p className=" my-2.5 text-sm text-gray-600">Curated tools, technologies, and resources for developers building <br /> modern software.</p>
 
-                    <ul className="flex gap-2.75">
-                        <li> GitHub</li>
-                        <li> Twitter </li>
-                        <li> LinkedIn</li>
+                    <ul className="flex gap-2.75 my-6">
+                        <a href="">GitHub</a>
+                        <a href="">Twitter</a>
+                        <a href="">LinkedIn</a>
                     </ul>
                 </div>
 
