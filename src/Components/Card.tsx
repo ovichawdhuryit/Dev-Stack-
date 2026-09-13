@@ -16,8 +16,8 @@ export default function Card({
     );
 
     return (
-        <div className="card bg-base-100 shadow-sm">
-            <div className="card-body">
+        <div className="card h-full w-full bg-base-100 shadow-sm">
+            <div className="card-body flex flex-col">
                 <div className="flex items-center justify-between">
                     <img
                         src={technology.icon}
@@ -55,13 +55,15 @@ export default function Card({
                     </span>
                 </div>
 
-                <div className="mt-4">
+                <div className="mt-auto pt-4">
                     <button
                         className="btn btn-primary btn-block"
                         disabled={isAdded}
                         onClick={() => addToStack(technology)}
                     >
-                        {isAdded ? "✓ Added to Stack" : "Add to Stack"}
+                        {isAdded
+                            ? "✓ Added to Stack"
+                            : "Add to Stack"}
                     </button>
                 </div>
             </div>
