@@ -3,7 +3,7 @@ export default function Navbar() {
         <nav className=" sticky top-0 z-50 bg-white">
             <div className=" flex mx-auto max-w-7xl items-center justify-between px-4 py-4 gap-7">
                 <div>
-                    <img src="/assets/logo-text.png" alt="Right Left logo" className="h-10" />
+                    <img src="/logo-text.png" alt="Right Left logo" className="h-10" />
                 </div>
                 <div >
                     <ul>

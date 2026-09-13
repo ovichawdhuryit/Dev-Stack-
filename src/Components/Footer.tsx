@@ -3,7 +3,7 @@ export default function Footer() {
         <footer className="border-t border-gray-200 px-6 py-12">
             <div className="mx-auto max-w-7xl flex  justify-between ">
                 <div>
-                    <img src="/assets/logo-text.png" alt="footer logo" />
+                    <img src="/logo-text.png" alt="footer logo" />
 
                     <p className=" my-2.5 text-sm text-gray-600">Curated tools, technologies, and resources for developers building <br /> modern software.</p>
 
